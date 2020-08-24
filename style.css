@@ -1,0 +1,112 @@
+body{
+    margin:10px 10px auto;
+    background-color: #b0b3cf;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:100%;
+    box-sizing:border-box;
+    border-radius: 500px;
+    
+}
+
+th,td{
+    padding: 15px;
+    border: 5px solid rgb(26, 11, 11);
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    margin:20px auto;
+}
+
+
+.container{
+    margin:90px auto;
+    max-width:900px;
+    min-height:100px;
+}
+#form-position{
+    margin:30px auto;
+    padding-left: 50px;
+
+
+}
+
+h1{
+    text-align:center;
+    margin-top:120px;
+    margin-bottom: -80px;
+}
+
+/*
+input[type=submit]{
+   background-color:#62b487;
+   border-radius:42px;
+   margin-left: 45px;
+   padding:12px;
+   width: 14%;
+   height: 5%;
+
+}
+
+   */
+
+button{
+   background-color:#62b487;
+   border-radius:42px;
+   margin-left: 45px;
+   padding:12px;
+   width: 14%;
+   height: 5%;
+
+}
+
+/*input[type=submit]:nth-child(1){
+    margin-right:-5px;
+    margin-left:125px;
+}
+*/
+
+button:nth-child(1){
+    margin-right:-90px;
+    margin-left:130px;
+}
+button:nth-child(2){
+    margin-right:-100px;
+    margin-left:90px;
+}
+
+button:nth-child(3){
+    margin-right:-120px;
+    margin-left:100px;
+}
+button:nth-child(4){
+    margin-right:-110px;
+    margin-left:120px;
+}
+input[type=text]{
+  height: 30px;
+  margin-left:20px;
+  margin-bottom: 10px;
+  border-radius: 42px;
+  padding-right: 90px;
+  padding-left:20px;
+  width: 60%;
+     
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+  width: 600px;
+  line-height: 26px;
+  margin-bottom: 30px;
+
+}
+
+.list{
+    color: black;
+}

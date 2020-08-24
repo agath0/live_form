@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			FORM
+		</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<h1>Personal Details</h1>
+		<div class="container">
+		<table>
+			<tr>
+				<td>
+				<div id="form-position">
+					<form autocomplete="off" onsubmit="event.preventDefault();">
+						<div class="form-example">
+							<label>First Name
+							<input type="text" name="First Name" id="FirstName">
+							</label>
+							<label>Last Name
+							<input type="text" name="Last Name" id="LastName">
+							</label>
+							<label>Location
+							<input type="text" name="Location" id="Location">
+							</label>
+							<label>Occupation
+							<input type="text" name="Occupation" id="Occupation">
+							</label>
+							<label>Amount needed
+							<input type="text" name="Amount needed" id="Amountneeded">
+							</label>
+							<label>Interest rate
+							<input type="text" name="Interest rate" id="Interestrate">
+							</label>
+							</div>
+							<div class="Buttons">
+								<button onclick="submitData();">Submit</button>
+								<button onclick="deletData();">Delete</button>
+								<button onclick="editData();">Edit</button>
+								<button onclick="refresh()">Refresh</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				</td>
+			</tr>
+		</table>
+			<tr>
+				<td>
+					<table class="list" id="list">
+						<thead>
+							<tr>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Location</th>
+								<th>Occupation</th>
+								<th>Amount needed</th>
+								<th>Interest rate</th>
+							</tr>
+						</thead>
+						<tbody>
+
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</div>
+		<script src="script.js"></script>
+	</body>
+
+
+</html>
+	 
